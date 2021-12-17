@@ -1,75 +1,91 @@
 * {
-    margin: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
   
-  body {
-    position: relative; 
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    background-color: #026332; 
-    color: #e3f79b; 
-  }
+body {
+  position: relative; 
+  font-family: 'Times New Roman', Times, sans-serif;
+  font-size: 20px;
+  background-color: #e3f79b;
+  color: #026332; 
+}
 
-  header {
-    position: fixed;
-    width: 100%;
-    height: 40px;    
-    line-heigh
-    t: 40px;
-    text-align: right;
-  }
+header,
+footer {
+  width: 100%;    
+  line-height: 40px;
+  color: #e3f79b;
+  background-color: #026332;
+}
 
-  main {
-    display: block;
-    padding: 40px 0;
-  } 
-  
-  li {
-    display: inline;
-    padding: 0px 20px;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #e3f79b;
-  }
-  
-  img {
-    display: block;
-    margin: 20px auto;
-  }
+header{
+  position: fixed;
+  border-bottom: 3px solid #8a9954;
+}
 
-  section {
-    padding: 40px 0px;
-    border-top: 5px solid #8a9954;
-    background-color: #e3f79b;
-    color: #026332; 
-  }
+footer {
+  position: absolute;
+  border-top: 3px solid #8a9954;
+}
+  
+main {
+  padding-top: 40px;
+}
 
-  form {
-    width: 400px;
-    margin: 20px auto;
-    padding: 20px;
-    border: 5px solid #8a9954;
-    border-radius: 20px;
-  }
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}
   
-  .text-center {
-    text-align: center;
-  }
+a {
+  text-decoration: none;
+  color: #e3f79b;
+}
   
-  .text-right {
-    text-align: right;
-  }  
+img {
+  display: block;
+  margin: 20px auto;
+}
 
-  footer {
-    position: absolute;
-    width: 100%;
-    height: 40px;
-    line-height: 40px; 
-    bottom: 0;
-    /* ????? */
-    border-top: 5px solid #8a9954;
-    border-bottom: 5px solid #e3f79b;
-  }
+section {
+  padding: 20px 0px 10px 0px;
+  background-color: #e3f79b;
+  color: #026332; 
+}
+
+form {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px 0px 10px 0px;
+  border: 3px solid #8a9954;
+  border-radius: 20px;
+}
   
+label {
+  /*display: inline-block;*/
+  width: 50px;
+}
+  
+input {
+  box-sizing: border-box;
+  border: 1px solid #8a9954;
+  width: 300px;
+  height: 24px;
+}
+  
+button {
+  height: 30px;
+  width: 100px;
+  background-color: #8a9954;
+  color: #e3f79b;
+  font-size: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+  
+.text-right {
+  text-align: right;
+}  
